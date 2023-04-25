@@ -1,0 +1,30 @@
+.category-page-container {
+    min-height: 90vh;
+}
+
+.category-banner-container {
+    height: 200px;
+    background-color: #182e39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fa-plus-circle, .fa-minus-circle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.fa-plus-circle {
+    margin-left: 5px;
+}
+
+.fa-minus-circle {
+    margin-right: 5px;
+}
+
+.table-responsivr-sm {
+    max-height: 70vh;
+    overflow: scroll;
+}

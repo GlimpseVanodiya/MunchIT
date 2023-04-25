@@ -1,0 +1,27 @@
+.signup__image--container {
+    background-image: url('https://res.cloudinary.com/djtgxff6l/image/upload/v1676669942/Munchit/signup_pevww2.jpg');
+    height: 95vh;
+    background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url('https://res.cloudinary.com/djtgxff6l/image/upload/v1676669940/Munchit/login_prlutq.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
